@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ntools"
+version = "0.1.0"
+description = "nexus 3 tools"
+authors = ["nikhil <nikhilsilicon@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ntools", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nexus3-cli = "^4.1.8"
+requests = "^2.30.0"
+nxpy-maven = "^1.0.1"
+requests-to-curl = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
